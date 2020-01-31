@@ -1,0 +1,38 @@
+.jumbotron {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,255,24,1) 0%, rgba(37,203,215,1) 90% );
+    border-radius: 0px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h1 {
+    font-size: 2rem;
+    color: #20b2aa;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border: solid #dedede;
+    border-width: 0 0 1px 0;
+}
+
+section p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    color: #20b2aa;
+}
+
+footer {
+    background-color: #20b2aa;
+    color: #ffffff;
+}
+
+footer a {
+    color: #000000;
+}
