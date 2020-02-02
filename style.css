@@ -3,6 +3,16 @@
     border-radius: 0px;
 }
 
+.jumbotron a {
+    text-shadow: .5px .5px #333333;
+    transition: color .5s ease-in-out;
+}
+
+.jumbotron a:hover, footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 section {
     margin-bottom: 2rem;
 }
