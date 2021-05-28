@@ -1,16 +1,9 @@
 .jumbotron {
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,255,24,1) 0%, rgba(37,203,215,1) 90% );
-    border-radius: 0px;
-}
-
-.jumbotron a {
-    text-shadow: .5px .5px #333333;
-    transition: color .5s ease-in-out;
 }
 
 .jumbotron a:hover, footer a:hover {
     color: #ffffff;
-    text-decoration: none;
 }
 
 section {
@@ -36,6 +29,8 @@ ul {
 
 a {
     color: #20b2aa;
+    text-decoration: none;
+    transition: color .5s ease-out;
 }
 
 footer {
